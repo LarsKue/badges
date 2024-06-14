@@ -27,7 +27,11 @@ jobs:
 
       - name: Run Tests
         run: |
-          python -m pytest --cov badges --cov-report xml tests/ -m ${{ matrix.marker }}
+          python -m pytest --cov badges tests/ -m ${{ matrix.marker }}
+
+      - name: Create Coverage Report
+        run: |
+          coverage xml
 
       - name: Upload Coverage Reports to CodeCov
         uses: codecov/codecov-action@v4
