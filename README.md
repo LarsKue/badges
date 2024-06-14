@@ -4,4 +4,3 @@
 ![Codecov](https://img.shields.io/codecov/c/github/larskue/badges?style=for-the-badge)
 
 Testing badges.
-
