@@ -1,5 +1,7 @@
 # badges
 
-![Tests Badge](https://github.com/larskue/badges/actions/workflows/tests.yaml/badge.svg?branch=${GH_BRANCH})
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/larskue/badges/tests.yaml?style=for-the-badge&label=Tests)
+![Codecov](https://img.shields.io/codecov/c/github/larskue/badges?style=for-the-badge)
 
 Testing badges.
+
